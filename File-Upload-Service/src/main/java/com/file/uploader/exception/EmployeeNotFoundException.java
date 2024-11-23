@@ -1,10 +1,11 @@
 package com.file.uploader.exception;
 
-import lombok.AllArgsConstructor;
-import lombok.Data;
+import lombok.*;
 
 @AllArgsConstructor
-@Data
+@NoArgsConstructor
+@Setter
+@Getter
 public class EmployeeNotFoundException extends Exception{
 
     private String message;
